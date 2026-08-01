@@ -1,4 +1,10 @@
-require('electron-reload')(__dirname) // electron-reload
+try {
+  if (process.env.NODE_ENV === 'development' || !app.isPackaged) {
+    require('electron-reload')(__dirname);
+  }
+} catch (err) {
+  // Ignored in production build
+}
 const { app, BrowserWindow,ipcMain } = require('electron');
 
 function createWindow() {
