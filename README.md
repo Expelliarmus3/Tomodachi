@@ -4,7 +4,7 @@
 
 ---
 
-## 🐱 Met Momo — Your First Companion!
+## 🐱 Meet Momo — Your First Companion!
 
 **Momo** is a cozy, pixel-art cat buddy built to balance your productivity and remind you to take breaks. 
 
