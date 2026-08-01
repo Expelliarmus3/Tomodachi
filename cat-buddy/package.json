@@ -18,6 +18,10 @@
       "target": "nsis",
       "icon": "assets/Kitty.ico"
     },
+    "nsis": {
+      "oneClick": true,
+      "createDesktopShortcut": "always"
+    },
     "directories": {
       "output": "dist"
     },
