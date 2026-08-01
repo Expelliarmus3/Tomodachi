@@ -18,7 +18,7 @@ function createWindow() {
     frame: false,
     transparent: true,
     alwaysOnTop: true,
-    icon: path.join(__dirname, 'assets/Kitty.ico'),
+    icon: path.join(__dirname, 'assets/cat-256.ico'),
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: false

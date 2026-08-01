@@ -16,11 +16,13 @@
     "productName": "Momo",
     "win": {
       "target": "nsis",
-      "icon": "assets/Kitty.ico"
+      "icon": "assets/cat-256.ico"
     },
     "nsis": {
       "oneClick": true,
-      "createDesktopShortcut": "always"
+      "createDesktopShortcut": "always",
+      "createStartMenuShortcut": true,
+      "shortcutName": "Momo"
     },
     "directories": {
       "output": "dist"
