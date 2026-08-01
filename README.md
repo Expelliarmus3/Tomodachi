@@ -7,6 +7,8 @@
 ## 🐱 Met Momo — Your First Companion!
 
 **Momo** is a cozy, pixel-art cat buddy built to balance your productivity and remind you to take breaks. 
+
+
 <img src="cat-buddy/assets/1785594774918.gif" alt="Momo" style="border-radius: 15px;">   
 
 ### ⏱️ How Momo Works (The 30-15-15 Rule)
