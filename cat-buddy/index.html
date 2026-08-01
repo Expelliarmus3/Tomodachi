@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tomodachi App</title>
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap"
+    rel="stylesheet"
+  />
+  <!-- Style -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Your code goes here! -->
+   <!-- App's content -->
+	<div class="app" style="-webkit-app-region: drag;">
+
+
+        <!-- Title bar -->
+    <div class="title-bar">
+      <!-- Cat's name -->
+      <h1 id="cats-name">Cat's name</h1>
+      <div class="title-bar-btns">
+        <!-- Minimize button -->
+        <button class="title-bar-btn" id="minimize">
+          <img
+            id="minimize-btn"
+            alt="Minimize"
+            src="assets//Pasted image (6).png"
+          />
+        </button>
+        <!-- Close button -->
+        <button class="title-bar-btn" id="close">
+          <img
+            id="close-btn"
+            alt="Close"
+            src="assets/Pasted image (3).png"
+          />
+        </button>
+      </div>
+    </div>
+
+    <!-- Plant zone -->
+    <div class="cat-zone">
+      <!-- Plant illustration -->
+      <img
+        id="cat"
+        alt="cat"
+        src="assets/Ok.gif"
+      />
+      <!-- Mood tag -->
+      <div class="mood-tag">
+        <p id="mood">Thriving</p>
+      </div>
+    </div>
+
+
+    <!-- Care reminder -->
+    <div class="care-reminder">
+      <span id="message">- All good here, just vibing -</span>
+    </div>
+
+
+    <!-- Water meter -->
+    <div class="pet-meter">
+      <!-- Water label -->
+      <div class="pet-label">
+        <p id="pet">Affection</p>
+        <p id="percentage">100%</p>
+      </div>
+      <!-- Water bar -->
+      <div class="pet-bar">
+        <div class="percentage-bar" id="bar-1">-</div>
+        <div class="percentage-bar" id="bar-2">-</div>
+        <div class="percentage-bar" id="bar-3">-</div>
+        <div class="percentage-bar" id="bar-4">-</div>
+        <div class="percentage-bar" id="bar-5">-</div>
+        <div class="percentage-bar" id="bar-6">-</div>
+        <div class="percentage-bar" id="bar-7">-</div>
+        <div class="percentage-bar" id="bar-8">-</div>
+        <div class="percentage-bar" id="bar-9">-</div>
+        <div class="percentage-bar" id="bar-10">-</div>
+      </div>
+    </div>
+
+
+    <!-- Action buttons -->
+    <div class="action-btns">
+      <!-- Water button -->
+      <button id="pet-btn" class="action-btn">
+        <p class="name">PET ME</p>
+        <span class="timer">READY</span>
+      </button>
+      <!-- Restart button -->
+      <button id="restart-btn" class="action-btn" style="display: none">
+        <p class="name">Restart</p>
+        <span class="timer">START OVER</span>
+      </button>
+    </div>
+
+
+
+	</div>
+   <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
