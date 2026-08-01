@@ -7,6 +7,7 @@
 ## 🐱 Met Momo — Your First Companion!
 
 **Momo** is a cozy, pixel-art cat buddy built to balance your productivity and remind you to take breaks. 
+![Momo](cat-buddy/assets/Ok.gif)
 
 ### ⏱️ How Momo Works (The 30-15-15 Rule)
 
@@ -39,16 +40,19 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your system.
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/tomodachi.git](https://github.com/YOUR_USERNAME/tomodachi.git)
-   cd tomodachi
+   git clone git@github.com:Expelliarmus3/Tomodachi.git
+   cd cat-buddy
+   ```
 
 2. **Install dependencies:**
    ```bash
    npm install  
+   ```
 
 3. **Run the app:**
    ```bash
    npm start
+   ```
 
 
 ## 📂 Project Structure
@@ -64,10 +68,10 @@ Tomodachi/
 ```
 
 ## 🗺️ Roadmap & Future Companions
-[x] Momo (Cat Companion) — Focus & Break companion 
+- [x] Momo (Cat Companion) — Focus & Break companion 
 
-[ ] Panda Buddy — Water tracking companion
+- [ ] Panda Buddy — Water tracking companion
 
-[ ] Custom Timer Settings — Adjustable focus/break intervals
+- [ ] Custom Timer Settings — Adjustable focus/break intervals
 
-[ ] Sound Effects & Audio Cues — Subtle meows and UI clicks
+- [ ] Sound Effects & Audio Cues — Subtle meows and UI clicks
