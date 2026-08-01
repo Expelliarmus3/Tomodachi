@@ -34,9 +34,6 @@ Click **PET ME** during break time to refill Momo's affection back to 100% and s
 
 ## 🚀 Getting Started
 
-### Prerequisites
-
-Make sure you have [Node.js](https://nodejs.org/) installed on your system.
 
 ### 📥 For Users (Quick Install)
 
