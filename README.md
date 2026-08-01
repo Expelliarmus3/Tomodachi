@@ -48,13 +48,6 @@ Click **PET ME** during break time to refill Momo's affection back to 100% and s
 #### Prerequisites
 Make sure you have [Node.js](https://nodejs.org/) installed on your system.
 
-#### Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone git@github.com:Expelliarmus3/Tomodachi.git
-   cd cat-buddy
-
 ### Installation
 
 1. **Clone the repository:**

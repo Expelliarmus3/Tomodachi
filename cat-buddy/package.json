@@ -15,7 +15,8 @@
     "appId": "com.tomodachi.catbuddy",
     "productName": "Momo",
     "win": {
-      "target": "nsis"
+      "target": "nsis",
+      "icon": "assets/Kitty.ico"
     },
     "directories": {
       "output": "dist"
