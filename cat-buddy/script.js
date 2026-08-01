@@ -52,7 +52,7 @@ function updateUI() {
   // State & Message handling based on elapsed seconds
   if (seconds_elapsed < FOCUS_DURATION) {
     // Phase 1: Focusing (0 to 30 mins)
-     cat_icon.src = "assets/Ok.gif";
+     cat_icon.src = "assets/Kitty.gif";
     mood_tag.textContent = "Thriving";
     care_reminder.textContent = "- All good here, Just Vibing! -";
     restart_btn.style.display = "none";
