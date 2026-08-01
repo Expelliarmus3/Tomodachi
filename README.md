@@ -38,6 +38,26 @@ Click **PET ME** during break time to refill Momo's affection back to 100% and s
 
 Make sure you have [Node.js](https://nodejs.org/) installed on your system.
 
+### 📥 For Users (Quick Install)
+
+1. Head over to the **[Latest Release](https://github.com/Expelliarmus3/Tomodachi/releases)** page.
+2. Download `Momo Setup 1.0.0.exe` under **Assets**.
+3. Double-click the installer to set up Momo on your Windows PC!
+
+---
+
+### 💻 For Developers (Run from Source)
+
+#### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed on your system.
+
+#### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone git@github.com:Expelliarmus3/Tomodachi.git
+   cd cat-buddy
+
 ### Installation
 
 1. **Clone the repository:**
@@ -61,12 +81,13 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your system.
 
 ```text
 Tomodachi/
-├── assets/          # Images, icons, and GIFs for Momo
-├── index.html       # App layout & pet meter UI
-├── main.js          # Electron main process & window configuration
-├── script.js        # Companionship & timer logic
-├── styles.css       # Retro/Pixel theme styling
-└── package.json     # Project dependencies & scripts
+└── cat-buddy/
+    ├── assets/          # Images, icons, and GIFs for Momo
+    ├── index.html       # App layout & pet meter UI
+    ├── main.js          # Electron main process & window configuration
+    ├── script.js        # Companionship & timer logic
+    ├── styles.css       # Retro/Pixel theme styling
+    └── package.json     # Project dependencies & scripts
 ```
 
 ## 🗺️ Roadmap & Future Companions
