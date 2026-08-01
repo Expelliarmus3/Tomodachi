@@ -6,6 +6,7 @@ try {
   // Ignored in production build
 }
 const { app, BrowserWindow,ipcMain } = require('electron');
+const path = require('path'); // 👈 ADD THIS LINE!
 
 function createWindow() {
   const win = new BrowserWindow({
