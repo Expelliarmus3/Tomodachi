@@ -45,8 +45,8 @@ function updateUI() {
   bars.forEach((bar, i) => {
     const threshold = (i + 1) * 10;
     const filled = affection_level >= threshold;
-    bar.style.background = filled ? "#8FC98A" : "#C2E0B8";
-    bar.style.color = filled ? "#8FC98A" : "#C2E0B8";
+    bar.style.background = filled ? "#e65100" : "#ff9800";
+    bar.style.color = filled ? "#e65100" : "#ff9800";
   });
 
   // State & Message handling based on elapsed seconds

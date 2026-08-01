@@ -23,9 +23,9 @@ body {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  border: 3px solid #F97306;
+  border: 3px solid #e65100;
   border-radius: 16px;
-  background: #fad6b8;
+  background: #ffd180;
   font-family: "Pixelify Sans", sans-serif;
   overflow: hidden;
 }
@@ -47,7 +47,7 @@ button {
 #cats-name {
   font-size: 1.375rem;
   font-weight: normal;
-  color: #47aa5a;
+  color: #e65100;
 }
 
 .title-bar-btns {
@@ -78,9 +78,9 @@ button {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  border: 3px solid #47aa5a;
+  border: 3px solid #e65100;
   border-radius: 12px;
-  background: #c2e0b8;
+  background: #ffe0b2;
 }
 
 #cat {
@@ -95,14 +95,14 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 3px solid #47aa5a;
+  border: 3px solid #ef6c00;
   border-radius: 18px;
-  background: #e8f5e4;
+  background: #ffcc80;
 }
 
 #mood {
   font-size: 0.875rem;
-  color: #47aa5a;
+  color: #ef6c00;
 }
 
 /* Care reminder */
@@ -113,14 +113,14 @@ button {
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: 3px solid #47aa5a;
+  border: 3px solid #ef6c00;
   border-radius: 8px;
-  background: #c2e0b8;
+  background: #ffab40;
 }
 
 #message {
   font-size: 0.95rem;
-  color: #47aa5a;
+  color: #fff3e0;
 }
 
 /* Water meter */
@@ -138,7 +138,7 @@ button {
 #pet,
 #percentage {
   font-size: 1.125rem;
-  color: #47aa5a;
+  color: #e65100;
 }
 
 .pet-bar {
@@ -149,15 +149,15 @@ button {
   justify-content: space-between;
   align-items: center;
   gap: 3px;
-  border: 3px solid #47aa5a;
+  border: 3px solid #e65100;
   border-radius: 12px;
-  background: #c2e0b8;
+  background: #ff9800;
 }
 
 .percentage-bar {
   flex: 1;
   height: 100%;
-  background: #8fc98a;
+  background: #e65100;
   color: transparent; /* Hides text nodes inside percentage-bar */
   border-radius: 2px;
 }
@@ -193,7 +193,7 @@ button {
   border-radius: 6px;
 }
 
-#water-btn {
+#pet-btn {
   border-color: #3c84bd;
   background: #b8d8f0;
   color: #3c84bd;
