@@ -22,6 +22,7 @@ Momo runs on a custom 60-minute focus cycle that balances deep work with timely 
 
 Click **PET ME** during break time to refill Momo's affection back to 100% and start a new focus session!
 
+Get Momo here: [https://tomodachi-series.itch.io/momo](https://tomodachi-series.itch.io/momo)
 ---
 
 ## 🛠️ Tech Stack
